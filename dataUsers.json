@@ -1,7 +1,7 @@
 [
     {
         "model": "app.usuario",
-        "pk": 4,
+        "pk": 2,
         "fields": {
             "nombres": "Juan",
             "apellidos": "Pérez",
@@ -14,7 +14,7 @@
     },
     {
         "model": "app.usuario",
-        "pk": 5,
+        "pk": 3,
         "fields": {
             "nombres": "María",
             "apellidos": "González",
@@ -27,7 +27,7 @@
     },
     {
         "model": "app.usuario",
-        "pk": 6,
+        "pk": 4,
         "fields": {
             "nombres": "Carlos",
             "apellidos": "Martínez",
@@ -40,7 +40,7 @@
     },
     {
         "model": "app.usuario",
-        "pk": 7,
+        "pk": 5,
         "fields": {
             "nombres": "Ana",
             "apellidos": "López",
@@ -53,7 +53,7 @@
     },
     {
         "model": "app.usuario",
-        "pk": 8,
+        "pk": 6,
         "fields": {
             "nombres": "Pedro",
             "apellidos": "Sánchez",
@@ -66,7 +66,7 @@
     },
     {
         "model": "app.usuario",
-        "pk": 9,
+        "pk": 7,
         "fields": {
             "nombres": "Laura",
             "apellidos": "Ramírez",
@@ -79,7 +79,7 @@
     },
     {
         "model": "app.usuario",
-        "pk": 10,
+        "pk": 8,
         "fields": {
             "nombres": "Javier",
             "apellidos": "Gutiérrez",
@@ -89,6 +89,33 @@
             "tipo_usuario": "arrendatario",
             "correo_electronico": "javier.gutierrez@example.com"
         }
+    },
+
+        {
+            "model": "app.usuario",
+            "pk": 9,
+            "fields": {
+                "nombres": "Alejandro ",
+                "apellidos": "Martinez",
+                "rut": "1345435678",
+                "direccion": "Av. Los Robles 759",
+                "telefono": "888888888",
+                "tipo_usuario": "arrendatario",
+                "correo_electronico": "alejandro.martinez@example.com"
+            }
+        },
+
+    {
+        "model": "app.usuario",
+        "pk": 10,
+        "fields": {
+            "nombres": "Sebastian",
+            "apellidos": "Morales",
+            "rut": "1549683058",
+            "direccion": "Av. Los Robles 789",
+            "telefono": "888888888",
+            "tipo_usuario": "arrendatario",
+            "correo_electronico": "sebastian.morales@example.com"
+        }
     }
-    
 ]

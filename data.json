@@ -1,7 +1,7 @@
 [
     {
         "model": "app.inmueble",
-        "pk": 3,
+        "pk": 1,
         "fields": {
             "nombre": "casa 3",
             "direccion": "Providencia",
@@ -16,12 +16,12 @@
             "cantidad_habitaciones": 3,
             "cantidad_banos": 2,
             "tipo_de_inmueble": "casa",
-            "propietario": 4
+            "propietario": 2
         }
     },
     {
         "model": "app.inmueble",
-        "pk": 4,
+        "pk": 2,
         "fields": {
             "nombre": "departamento 1",
             "direccion": "Providencia",
@@ -36,12 +36,12 @@
             "cantidad_habitaciones": 2,
             "cantidad_banos": 1,
             "tipo_de_inmueble": "departamento",
-            "propietario": 5
+            "propietario": 3
         }
     },
     {
         "model": "app.inmueble",
-        "pk": 5,
+        "pk": 3,
         "fields": {
             "nombre": "parcela 1",
             "direccion": "Lo Barnechea",
@@ -56,12 +56,12 @@
             "cantidad_habitaciones": 0,
             "cantidad_banos": 0,
             "tipo_de_inmueble": "parcela",
-            "propietario": 6
+            "propietario": 4
         }
     },
     {
         "model": "app.inmueble",
-        "pk": 6,
+        "pk": 4,
         "fields": {
             "nombre": "departamento 2",
             "direccion": "Santiago Centro",
@@ -76,12 +76,12 @@
             "cantidad_habitaciones": 3,
             "cantidad_banos": 2,
             "tipo_de_inmueble": "departamento",
-            "propietario": 7
+            "propietario": 5
         }
     },
     {
         "model": "app.inmueble",
-        "pk": 7,
+        "pk": 5,
         "fields": {
             "nombre": "casa 4",
             "direccion": "Ñuñoa",
@@ -96,12 +96,12 @@
             "cantidad_habitaciones": 4,
             "cantidad_banos": 3,
             "tipo_de_inmueble": "casa",
-            "propietario": 8
+            "propietario": 6
         }
     },
     {
         "model": "app.inmueble",
-        "pk": 8,
+        "pk": 6,
         "fields": {
             "nombre": "departamento 3",
             "direccion": "Las Condes",
@@ -116,12 +116,12 @@
             "cantidad_habitaciones": 2,
             "cantidad_banos": 2,
             "tipo_de_inmueble": "departamento",
-            "propietario": 9
+            "propietario": 7
         }
     },
     {
         "model": "app.inmueble",
-        "pk": 9,
+        "pk": 7,
         "fields": {
             "nombre": "parcela 2",
             "direccion": "Curacaví",
@@ -136,7 +136,7 @@
             "cantidad_habitaciones": 0,
             "cantidad_banos": 0,
             "tipo_de_inmueble": "parcela",
-            "propietario": 10
+            "propietario": 8
         }
     }
 ]
