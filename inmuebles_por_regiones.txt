@@ -1,0 +1,21 @@
+Region: Metropolitana de Santiago
+Inmueble: departamento 2
+Descripcion: Departamento
+Inmueble: departamento 1
+Descripcion: Departamento
+Inmueble: casa 3
+Descripcion: Casa
+Inmueble: parcela 2
+Descripcion: Parcela
+Inmueble: departamento 3
+Descripcion: Departamento
+Inmueble: parcela 1
+Descripcion: Parcela
+Inmueble: casa 4
+Descripcion: Casa
+
+Region: Tarapacá
+Inmueble: casa1
+Descripcion: Actualizar
+Inmueble: Casa Hito 1
+Descripcion: Casa de prueba hito 1

@@ -1,0 +1,36 @@
+Comuna: Colchane
+Nombre del inmueble: Casa Hito 1
+Descripcion: Casa de prueba hito 1
+
+Comuna: Iquique
+Nombre del inmueble: casa1
+Descripcion: Actualizar
+
+Comuna: Curacav�
+Nombre del inmueble: parcela 2
+Descripcion: Parcela
+
+Comuna: Las Condes
+Nombre del inmueble: departamento 3
+Descripcion: Departamento
+
+Comuna: Lo Barnechea
+Nombre del inmueble: parcela 1
+Descripcion: Parcela
+
+Comuna: �u�oa
+Nombre del inmueble: casa 4
+Descripcion: Casa
+
+Comuna: Providencia
+Nombre del inmueble: departamento 1
+Descripcion: Departamento
+
+Comuna: Providencia
+Nombre del inmueble: casa 3
+Descripcion: Casa
+
+Comuna: Santiago
+Nombre del inmueble: departamento 2
+Descripcion: Departamento
+
