@@ -55,3 +55,36 @@ Eliminar inmueble:
 ![eliminacion casa prueba 2 en BD](https://github.com/Bar011/casa-click/assets/65033110/63ed9c82-6a52-4186-8c0c-d3acd02cb1de)
 
 </details>
+
+<details>
+<summary>
+
+## Hito 2
+
+</summary>
+
+### Población de la base de datos con el comando "loaddata" : 
+
+![hito 2 cargar datos](https://github.com/Bar011/casa-click/assets/65033110/6296f266-8b74-4686-9f70-b273372dbc1c)
+
+### Script que genera un listado de inmuebles por comuna :
+
+Script: 
+
+![hito 2 consultar comunas y generar texto](https://github.com/Bar011/casa-click/assets/65033110/4a6c47b1-c2dd-4d08-acb9-9ad7373b0685)
+
+Archivo creado:
+
+![hito 2 archivo creado comunas exitosamente](https://github.com/Bar011/casa-click/assets/65033110/a0bba696-0534-490a-97d6-790bc3d9a5fb)
+
+### Script que genera un listado de inmuebles por regiones:
+
+Script: 
+
+![hito 2 consultar regiones y generar texto](https://github.com/Bar011/casa-click/assets/65033110/0075e722-5c50-4624-9b8a-88a963d510b0)
+
+Archivo creado:
+
+![hito 2 archivo regiones creado exitosamente](https://github.com/Bar011/casa-click/assets/65033110/6ab99184-2930-42bb-ae97-0e2d696ffc6c)
+
+</details>
