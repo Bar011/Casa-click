@@ -3,8 +3,10 @@
 Version anterior: casa-click
 
 Por razones de bug, el proyecto tuvo que crearse de nuevo a partir del repositorio principal. 
-
+<details>
+<summary>
 ## Hito 1
+</summary>
 
 ### Ambiente de desarrollo:
 
@@ -49,3 +51,5 @@ Eliminar inmueble:
 ![hito 1 elimincacion inmueble](https://github.com/Bar011/casa-click/assets/65033110/4d565043-7884-4b43-a317-e5b5bf6de8bd)
 
 ![eliminacion casa prueba 2 en BD](https://github.com/Bar011/casa-click/assets/65033110/63ed9c82-6a52-4186-8c0c-d3acd02cb1de)
+
+</details>
