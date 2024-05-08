@@ -28,7 +28,7 @@ urlpatterns = [
     path('registro/', registro_usuario, name='registro_usuario'),
     path('login/', LoginView.as_view(template_name='login.html'), name='login'),
     path('logout/', LogoutView.as_view(next_page='index'), name='logout'),
-    path('inmueble/<int:id>',detalle_inmueble , name='detalle'),
+    path('inmueble/<int:id>/',detalle_inmueble , name='detalle'),
     
     path('inmuebles/<int:id>/generar-solicitud/', generar_solicitud_arriendo, name='generar_solicitud_arriendo'),
     path('alta-inmueble/', alta_inmueble, name='alta_inmueble'),

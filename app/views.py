@@ -18,7 +18,7 @@ def index(request):
 @login_required
 def detalle_inmueble(request, id):
     inmueble = Inmueble.objects.get (pk=id)
-    return render(request,'detalle_inmueble.html',{'inmuebles':inmueble})
+    return render(request,'detalle_inmueble.html',{'inmueble':inmueble})
 
 
 
@@ -79,14 +79,17 @@ def solicitudes_arrendador(request):
 @login_required
 def alta_inmueble(request):
     if request.method == 'POST':
-        form = InmuebleForm(request.POST)
+        form = InmuebleForm(request.POST, request.FILES)
         print(form)
         if form.is_valid():
             
             inmueble = form.save(commit=False)
-            inmueble.propietario = request.user
+            #Nota importante: 
+            #Admin no tiene privilegios xD, no tiene el campo tipo de usuario
+            #y no funcionará el form de alta inmueble si estamos con el admin.
+            inmueble.propietario = request.user.usuario
             inmueble.save()
-            return redirect('inicio') 
+            return redirect('detalle', id= inmueble.id) 
     else:
         form = InmuebleForm()
     return render(request, 'alta_inmueble.html', {'form': form})
