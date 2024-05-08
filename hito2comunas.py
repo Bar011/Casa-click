@@ -28,4 +28,4 @@ with open(resultados_file, "w") as file:
         file.write(f"Nombre del inmueble: {nombre_inmueble}\n")
         file.write(f"Descripcion: {descripcion}\n")
         file.write("\n")
-        print("¡Archivo creado exitosamente!")
+print("¡Archivo creado exitosamente!")
