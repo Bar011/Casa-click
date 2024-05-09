@@ -96,18 +96,11 @@ def alta_inmueble(request):
 @login_required
 def dashboard(request):
     if request.user.usuario.tipo_usuario == 'arrendatario':
-        # Obtener las solicitudes del arrendatario
         solicitudes = SolicitudArriendo.objects.filter(arrendatario=request.user.usuario)
-        
-        # Obtener todas las regiones y comunas disponibles
         regiones = Region.objects.all()
         comunas = Comuna.objects.all()
-        
-        # Obtener los valores seleccionados en el formulario
         region_id = request.GET.get('region')
         comuna_id = request.GET.get('comuna')
-        
-        # Filtrar los inmuebles por región y comuna seleccionadas
         inmuebles = Inmueble.objects.all()
         if region_id:
             inmuebles = inmuebles.filter(comuna__region_id=region_id)
@@ -134,5 +127,14 @@ def actualizar_usuario(request):
             messages.success(request, '¡Los datos del usuario han sido actualizados!')
             return redirect('dashboard') 
     else:
-        form = CustomUserChangeForm(instance=request.user)
+        form = CustomUserChangeForm(instance=request.user.usuario)
     return render(request, 'perfil.html', {'form': form})
+
+def cambiar_estado_solicitud(request, solicitud_id):
+    solicitud = get_object_or_404(SolicitudArriendo, pk=solicitud_id)
+    if solicitud.inmueble.propietario == request.user.usuario:
+        if request.method == 'POST':
+            nuevo_estado = request.POST.get('nuevo_estado')
+            solicitud.estado = nuevo_estado
+            solicitud.save()
+    return redirect('dashboard')
