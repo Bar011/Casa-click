@@ -4,15 +4,22 @@
 
 {% block content %}
 <section id="eliminar_inmueble" class="container p-5 d-flex justify-content-center">
-    <div class="row d-flex justify-content-center align-items-center">
-        <div class="card"> 
-            <h2 class=" card-header text-center mt-4">Editar los datos del inmueble</h2>
-                <div class="card-body p-4">
-                    <form method="POST" enctype="multipart/form-data">
-                        {% csrf_token %}
-                            {{ form.as_p }}
-                        <div class="container d-flex justify-content-center">
-                            <button type="submit" class="btn btn-primary" style="margin-top: 10px;">Editar</button>
+    <div style="background-color: #ffffff;">
+        <div class="container h-100">
+          <div class="row d-flex justify-content-center align-items-center h-100">
+            <div class="col col-lg-12 mb-4 mb-lg-0"> <!-- Ajusta el tamaño de la caja -->
+              <div class="card"> 
+                    <h2 class=" card-header text-center">Editar los datos del inmueble</h2>
+                        <div class="card-body p-8">
+                            <form method="POST" enctype="multipart/form-data">
+                                {% csrf_token %}
+                                {{ form.as_p }}
+                            <div class="container d-flex justify-content-center">
+                                <button type="submit" class="btn btn-primary" style="margin-top: 10px;">Editar</button>
+                            </div>
                         </div>
-                    </form>
+                    </div>
+                </div>
+            </div>
+        </form>
 {% endblock %}
