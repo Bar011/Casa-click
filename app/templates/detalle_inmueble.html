@@ -19,12 +19,12 @@
     </div>
     <div class="container d-flex justify-content-center">
     {% if user.usuario.tipo_usuario == 'arrendatario' %}
-    <a href="{% url 'generar_solicitud_arriendo' inmueble.id %}">Generar Solicitud de Arriendo</a>
+    <a href="{% url 'generar_solicitud_arriendo' inmueble.id %}" button type="submit"  class="btn btn-primary" style="margin-top: 10px;">Generar Solicitud de Arriendo</a></button>
     {% endif %}
 
     {% if user.usuario.tipo_usuario == 'arrendador' %}
-    <a href="{% url 'editar_inmueble' inmueble.id %}" onclick="return confirm('¿editar?');">editar Inmueble</a>
-    <a href="{% url 'eliminar_inmueble' inmueble.id %}" onclick="return confirm('¿quieres eliminar?');">eliminar Inmueble</a>
+    <a href="{% url 'editar_inmueble' inmueble.id %}" onclick="return confirm('¿editar?');"  button type="submit"  class="btn btn-primary" style="margin-top: 10px;">editar Inmueble</a></button>
+    <a href="{% url 'eliminar_inmueble' inmueble.id %}" onclick="return confirm('¿quieres eliminar?');" button type="submit"  class="btn btn-primary" style="margin-top: 10px; margin-left: 10px;">eliminar Inmueble</a></button>
     {% endif %}
   </div>
 {% endblock %}
