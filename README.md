@@ -88,3 +88,47 @@ Archivo creado:
 ![hito 2 archivo regiones creado exitosamente](https://github.com/Bar011/casa-click/assets/65033110/6ab99184-2930-42bb-ae97-0e2d696ffc6c)
 
 </details>
+
+<details>
+<summary>
+
+## Hito 3
+
+</summary>
+
+### Generar vista de login de usuarios: 
+
+![Hito 3 vista login de la página](https://github.com/Bar011/casa-click/assets/65033110/fb91152d-af85-4706-988d-f42382c0c6fa)
+
+### Generar vista de registro de usuarios: 
+
+![hito 3 Vista registro de usuarios](https://github.com/Bar011/casa-click/assets/65033110/a7dac49a-e9a4-4590-9a47-3cca41f2b54f)
+
+### Redireccionamientos de URL'S: 
+
+![hito 3 redireccionamiento de las url](https://github.com/Bar011/casa-click/assets/65033110/f0dc127c-c2c8-4195-bb03-5b392ed116d6)
+
+### Despliegue de datos del usuario:
+
+![hito 3 desplegar datos usuario](https://github.com/Bar011/casa-click/assets/65033110/ef11546f-0d30-480a-abf0-0e377061a844)
+
+### Agregar a la página personal del usuario la posibilidad de actualizar sus datos: 
+
+Página inicial con los datos a actualizar:
+![hito 3 perfil del usuario -actualizar datos](https://github.com/Bar011/casa-click/assets/65033110/8dcf3dea-dd15-4a99-8172-b95f9f353f1a)
+
+Función implementada: 
+
+![hito 3 funcion actualizar usuario](https://github.com/Bar011/casa-click/assets/65033110/04e920b6-6e84-4294-973f-2acd0e0b4ead)
+
+Datos actualizados en la BD: 
+![hito 3 datos actualizados BD](https://github.com/Bar011/casa-click/assets/65033110/c4a58cac-2a67-4d59-aafc-7aa80c22ecf8)
+
+<details>
+<summary>
+
+## Hito 4
+
+</summary>
+
+
