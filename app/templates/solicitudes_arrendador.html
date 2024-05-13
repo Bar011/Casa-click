@@ -1,20 +1,26 @@
 {% extends 'base.html' %}
 
-{% block title %}Página de Inicio{% endblock %}
+{% block title %}Solicitudes de arriendo{% endblock %}
 {% load static %}
 {% block content %}
-<h1>Solicitudes Recibidas</h1>
-<ul>
-    {% for solicitud in solicitudes %}
-    <li>
-        <p>Arrendatario: {{ solicitud.arrendatario }}</p>
-        <p>Inmueble: {{ solicitud.inmueble }}</p>
-        <p>Mensaje: {{ solicitud.mensaje }}</p>
-    </li>
-    {% empty %}
-    <li>No hay solicitudes recibidas.</li>
-    {% endfor %}
-</ul>
+<section id="solicitudes-recibidas" class="container p-5">
+    <div style="background-color: #ffffff;">
+      <div class="container h-100">
+        <div class="row d-flex justify-content-center align-items-center h-100">
+          <div class="col col-lg-6 mb-4 mb-lg-0"> <!-- Ajusta el tamaño de la caja -->
+            <div class="card"> 
+                <h1 class=" card-header text-center">Solicitudes Recibidas</h1>
+                    <ul>
+                    {% for solicitud in solicitudes %}
+                    <li>
+                            <p>Arrendatario: {{ solicitud.arrendatario }}</p>
+                            <p>Inmueble: {{ solicitud.inmueble }}</p>
+                            <p>Mensaje: {{ solicitud.mensaje }}</p>
+                    </li>
+                    {% empty %}
+                    <li>No hay solicitudes recibidas.</li>
+                         {% endfor %}
+                    </ul>
    
 
 
