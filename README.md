@@ -2,7 +2,9 @@
 
 Version anterior: casa-click
 
-Por razones de bug, el proyecto tuvo que crearse de nuevo a partir del repositorio principal. 
+## Problemas:
+Por razones de bug de VScode, el proyecto tuvo que crearse de nuevo a partir del repositorio principal, dado que tenía problemas con la BD en postgreSQL.
+
 <details>
 <summary>
 
