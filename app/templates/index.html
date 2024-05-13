@@ -13,14 +13,15 @@
                 <img class="card-img-top" src="media/{{inm.imagen}}" alt="Card image cap">
               </a>
               <div class="card-body">
-                <h5 class="card-title">{{ inm.name }}</h5>
+                <h5 class="card-title">{{ inm.nombre }}</h5>
                 <p class="card-text text-justify">
-                    {% if inm.descripcion|length > 10 %}
-                        {{ inm.descripcion|slice:":10" }}... <a href="">descripcion</a>
+                    {% if inm.descripcion|length > 15 %}
+                        {{ inm.descripcion|slice:"15" }}... <a href="">descripcion</a>
                     {% else %}
                         {{ inm.descripcion}}
                     {% endif %}
                 </p>
+                <p class="card-text text-justify"> $ {{inm.precio}}</p>
             </div>
               <div class="card-footer">
                 <a href="{% url 'detalle' inm.id %}">detalle del inmueble</a>
