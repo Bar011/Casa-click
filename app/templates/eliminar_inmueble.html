@@ -1,10 +1,21 @@
-{% block title %}Página de Inicio{% endblock %}
+{% extends 'base.html' %}
+{% block title %}Eliminar inmueble{% endblock %}
 
 {% block content %}
-<h2>Eliminar Inmueble</h2>
-    <p>¿Estás seguro de que deseas eliminar el inmueble "{{ inmueble.nombre }}"?</p>
-    <form method="post">
-        {% csrf_token %} 
-        <button type="submit" style="margin-top: 10px;">Eliminar</button>
-    </form>
+<section id="eliminar_inmueble" class="container p-5 d-flex justify-content-center">
+        <div class="row d-flex justify-content-center align-items-center">
+            <div class="card"> 
+            <h2 class="card-header text-center">Eliminar Inmueble</h2>
+                <div class="card-body p-4">
+                    <p class = "text-center">¿Estás seguro de que deseas eliminar el inmueble "{{ inmueble.nombre }}"?</p>
+                        <form method="post">
+                            {% csrf_token %} 
+                            <div class= "d-flex justify-content-center">
+                                <button type="submit" class="btn btn-danger" style="margin-top: 10px;">Eliminar</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+</section>
 {% endblock %}
