@@ -153,8 +153,7 @@ Vistas de la página web:
 
 ![hito 4 vista de ingreso alta inmueble](https://github.com/Bar011/casa-click/assets/65033110/7116c987-4572-4937-aa8a-fbb9e82cac39)
 
-### Crear página web básica donde arrendadores puedan actualizar/borrar un inmueble
-existente
+### Crear página web básica donde arrendadores puedan actualizar/borrar un inmueble existente
 
 Rutas para la vista para actualizar las viviendas por usuario:
 
